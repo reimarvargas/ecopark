@@ -1,0 +1,315 @@
+* {
+    margin: 5px;
+    padding: 0px;
+}
+
+#header {
+    margin: auto;
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.nav>li {
+    float: left;
+}
+
+.nav li a {
+    background-color: #90EE90;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+     font-weight: bold;
+}
+
+.nav li a:hover {
+    background-color: #434343;
+}
+
+.nav li ul {
+    display: none;
+    position: relative;
+    min-width: 140px;
+}
+
+.nav li:hover>ul {
+    display: block;
+}
+
+.nav li ul li {
+    position: relative;
+}
+
+.nav li ul li ul {
+    right: -140px;
+    top: 0px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Exo', sans-serif;
+    
+    
+}
+
+
+.context {
+    width: 100%;
+    position: absolute;
+    top: 50vh;
+
+}
+
+.context h1 {
+    text-align: center;
+    color: #5FFCE9;
+    font-size: 50px;
+}
+
+
+.area {
+    background: #fdfafa;
+    background: -webkit-linear-gradient(to left, #61C0F7, #D582FE);
+    width: 100%;
+    height: 100vh;
+
+
+
+
+
+}
+
+    /* Estilos CSS para los botones de men  */
+    .menu {
+
+        display: flex;
+
+
+    }
+
+
+    .menu-button {
+
+        background-color: #3498db;
+
+        color: #fff;
+
+        padding: 10px 20px;
+
+        cursor: pointer;
+
+        border: none;
+
+        outline: none;
+
+        margin-right: 10px;
+
+    }
+
+
+
+    .menu-button:last-child {
+
+        margin-right: 0;
+    }
+
+    /* Estilos CSS para las im genes */
+
+    .image-container {
+
+        text-align: center;
+
+    }
+
+
+
+    .image {
+
+        display: none;
+
+    }
+
+
+    .image.active {
+
+        display: block;
+    }
+
+/* Estilo para el banner en el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.banner-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-slide {
+    display: flex;
+    animation: slide 10s infinite;
+}
+
+.banner-slide .slide {
+    flex: 0 0 100%;
+}
+
+.banner-slide .slide img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilo para los botones de control */
+.slide-controls {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.slide-controls label {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #777;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+/* Estilo para los botones de control seleccionados */
+input[type="radio"]:checked + .slide-controls label {
+    background-color: #f44336;
+}
+
+/* Estilo para ocultar los botones de radio */
+input[type="radio"] {
+    position: absolute;
+    left: -9999px;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+.banner-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-slide {
+    display: flex;
+    animation: slide 10s infinite;
+}
+
+.banner-slide .slide {
+    flex: 0 0 100%;
+}
+
+.banner-slide .slide img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilo para los botones de control */
+.slide-controls {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.slide-controls label {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #777;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+/* Estilo para los botones de control seleccionados */
+input[type="radio"]:checked + .slide-controls label {
+    background-color: #f44336;
+}
+
+/* Estilo para ocultar los botones de radio */
+input[type="radio"] {
+    position: absolute;
+    left: -9999px;
+}
+
+/* Animación del banner */
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(-200%);
+    }
+    75% {
+        transform: translateX(-300%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+  
+  
+}
+.menu-button {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #c0f0c0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-button:hover {
+    background-color: #a0d0a0;
+}
+
+/* Contenido y Footer */
+main {
+    padding: 20px;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    display: none;
+}
+footer {
+    background-color: #90EE90; /* Cambiar el color de fondo del footer a blanco */
+    color: #333; /* Cambiar el color del texto del footer */
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+
+}
+main {
+    padding: 20px;
+}
+
